@@ -1,0 +1,144 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+      /* Body Styles */
+      body {
+        background-color: #222; /* Dark background color */
+        color: #ddd; /* Light text color */
+        font-family: sans-serif; /* Set a preferred font family */
+        margin: 0; /* Remove default body margin */
+        min-height: 100vh; /* Set minimum height for full viewport */
+      }
+
+      body .content {
+        padding: 80px;
+      }
+
+      /* Top Navigation Bar Styles (Base) */
+      nav {
+        background-color: #333; /* Darker background for the navbar */
+        padding: 20px; /* Increase padding for a larger navbar */
+      }
+
+      /* Style the unordered list (Top) */
+      nav ul {
+        list-style: none; /* Remove default bullet points */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        text-align: center; /* Center the navigation links horizontally */
+      }
+
+      /* Style the list items (Top) */
+      nav li {
+        display: inline-block; /* Display list items horizontally */
+        margin: 0 10px 0 10px; /* Add 10px separation between list items */
+      }
+
+      /* Style the anchor tags (Top) */
+      nav li a {
+        text-decoration: none; /* Remove underline from links */
+        color: #ddd; /* Light text color for links */
+        font-weight: bold; /* Make link text bolder */
+      }
+
+      /* Style the anchor tags on hover (Top) */
+      nav li a:hover {
+        color: #eee; /* Lighter color on hover for a subtle effect */
+        justify-content: center;
+      }
+
+      /* Top Navigation Bar Styles (Buttons) */
+      nav.top {  /* Add a class for the top navbar (optional) */
+        position: fixed; /* Fix the navbar to the top */
+        top: 0; /* Position it at the top of the viewport */
+        width: 100%; /* Set width to 100% for full width */
+        display: flex; /* Enable flexbox for button arrangement */
+        justify-content: space-between; /* Distribute buttons horizontally */
+      }
+
+      /* Style the buttons (Top) */
+      nav.top button {
+        background-color: #333; /* Match navbar background */
+        color: #ddd; /* Light text color for buttons */
+        border: none; /* Remove default button border */
+        padding: 10px 20px; /* Add padding for buttons */
+        font-weight: bold; /* Make button text bolder */
+        cursor: pointer; /* Indicate hover interaction */
+      }
+
+      /* Style the buttons on hover (Top) */
+      nav.top:hover {
+        background-color: #4a4949; /* Darker background on hover */
+      }
+
+      /* Footer Navigation Bar Styles */
+      nav.footer {
+        background-color: #333; /* Darker background for the footer */
+        padding: 10px; /* Padding for footer content */
+        position: fixed; /* Fix the footer to the bottom */
+        bottom: 0; /* Position it at the bottom of the viewport */
+        width: 100%; /* Set width to 100% for full width */
+        text-align: center; /* Center the content horizontally */
+      }
+
+      /* Style the footer text */
+      nav.footer a {
+        color: #ddd; /* Light text color for footer text */
+        text-decoration: none; /* Remove underline from link */
+      }
+    </style>
+</head>
+<body>
+
+  <nav class="top">
+    <ul>
+      <li><a href="/home">Home</a></li>
+      <li><a href="/aboutme">About me</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    
+<div style="display: flex; align-items: center;">
+    <img src="/static/studying.png" alt="student with a notebook image" style="width: 600px; margin-right: 5px;">
+    <h2 style="text-align: right; margin-left: 10%; margin-bottom: 10%;">I started my carreer by studying to ITA, an engineering college known for its difficulty, although 
+    I've changed my mind about trying to enroll in it, I've learned a lot about math and physics.<br><br>I already had a desire to start programming, but never did the first step
+    to it till 2022. It might be considered a late time, but I focused myself in getting into it, starting with Python and trying something new by testing other programming languages.<br><br>
+    I am really happy with the choice I've made, that's why I am improving every day to reach my goals and pursue my passion.</h2>
+</div>
+<h2 style="margin-top: 5%;;">Technologies I worked with</h2>
+<div>
+    <img src="/static/python.png" alt="python image" style="width: 50px; margin-right: 5px;">
+    <img src="/static/mariadb.png" alt="mariadb image" style="width: 50px; margin-right: 5px;">
+    <img src="/static/golang.png" alt="golang image" style="width: 50px; margin-right: 5px;">
+    <img src="/static/git.png" alt="git image" style="width: 50px; margin-right: 5px;">
+    <img src="/static/github.png" alt="github image" style="width: 50px; margin-right: 5px;">
+    <img src="/static/linux.png" alt="linux image" style="width: 50px; margin-right: 5px;">
+    <img src="/static/java.png" alt="java image" style="width: 50px; margin-right: 5px;">
+    <img src="/static/javascript.png" alt="javascript image" style="width: 50px; margin-right: 5px;">
+    <img src="/static/vim.png" alt="vim image" style="width: 50px; margin-right: 5px;">
+    <img src="/static/html.png" alt="html image" style="width: 50px; margin-right: 5px;">
+    <img src="/static/css.png" alt="css image" style="width: 50px; margin-right: 5px;">
+
+</div>
+
+
+  </div>
+
+  <nav class="footer">
+    <a href="https://flask.palletsprojects.com/en/3.0.x/">powered by Flask</a>
+  </nav>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+{% extends "navigation_bar.html" %}
+
+{% block content %}
+<div style="display: flex; align-items: center;">
+    <img src="{{ url_for('static', filename='studying.png') }}" alt="student with a notebook image" style="width: 600px; margin-right: 5px;">
+    <h2 style="text-align: right; margin-left: 10%; margin-bottom: 10%;">I started my carreer by studying to ITA, an engineering college known for its difficulty, although 
+    I've changed my mind about trying to enroll in it, I've learned a lot about math and physics.<br><br>I already had a desire to start programming, but never did the first step
+    to it till 2022. It might be considered a late time, but I focused myself in getting into it, starting with Python and trying something new by testing other programming languages.<br><br>
+    I am really happy with the choice I've made, that's why I am improving every day to reach my goals and pursue my passion.</h2>
+</div>
+<h2 style="margin-top: 5%;;">Technologies I worked with</h2>
+<div>
+    <img src="{{ url_for('static', filename='python.png') }}" alt="python image" style="width: 50px; margin-right: 5px;">
+    <img src="{{ url_for('static', filename='mariadb.png') }}" alt="mariadb image" style="width: 50px; margin-right: 5px;">
+    <img src="{{ url_for('static', filename='golang.png') }}" alt="golang image" style="width: 50px; margin-right: 5px;">
+    <img src="{{ url_for('static', filename='git.png') }}" alt="git image" style="width: 50px; margin-right: 5px;">
+    <img src="{{ url_for('static', filename='github.png') }}" alt="github image" style="width: 50px; margin-right: 5px;">
+    <img src="{{ url_for('static', filename='linux.png') }}" alt="linux image" style="width: 50px; margin-right: 5px;">
+    <img src="{{ url_for('static', filename='java.png') }}" alt="java image" style="width: 50px; margin-right: 5px;">
+    <img src="{{ url_for('static', filename='javascript.png') }}" alt="javascript image" style="width: 50px; margin-right: 5px;">
+    <img src="{{ url_for('static', filename='vim.png') }}" alt="vim image" style="width: 50px; margin-right: 5px;">
+    <img src="{{ url_for('static', filename='html.png') }}" alt="html image" style="width: 50px; margin-right: 5px;">
+    <img src="{{ url_for('static', filename='css.png') }}" alt="css image" style="width: 50px; margin-right: 5px;">
+
+</div>
+
+{% endblock %}

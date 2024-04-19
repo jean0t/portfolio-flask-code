@@ -1,0 +1,126 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Homepage</title>
+    <style>
+      /* Body Styles */
+      body {
+        background-color: #222; /* Dark background color */
+        color: #ddd; /* Light text color */
+        font-family: sans-serif; /* Set a preferred font family */
+        margin: 0; /* Remove default body margin */
+        min-height: 100vh; /* Set minimum height for full viewport */
+      }
+
+      body .content {
+        padding: 80px;
+      }
+
+      /* Top Navigation Bar Styles (Base) */
+      nav {
+        background-color: #333; /* Darker background for the navbar */
+        padding: 20px; /* Increase padding for a larger navbar */
+      }
+
+      /* Style the unordered list (Top) */
+      nav ul {
+        list-style: none; /* Remove default bullet points */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        text-align: center; /* Center the navigation links horizontally */
+      }
+
+      /* Style the list items (Top) */
+      nav li {
+        display: inline-block; /* Display list items horizontally */
+        margin: 0 10px 0 10px; /* Add 10px separation between list items */
+      }
+
+      /* Style the anchor tags (Top) */
+      nav li a {
+        text-decoration: none; /* Remove underline from links */
+        color: #ddd; /* Light text color for links */
+        font-weight: bold; /* Make link text bolder */
+      }
+
+      /* Style the anchor tags on hover (Top) */
+      nav li a:hover {
+        color: #eee; /* Lighter color on hover for a subtle effect */
+        justify-content: center;
+      }
+
+      /* Top Navigation Bar Styles (Buttons) */
+      nav.top {  /* Add a class for the top navbar (optional) */
+        position: fixed; /* Fix the navbar to the top */
+        top: 0; /* Position it at the top of the viewport */
+        width: 100%; /* Set width to 100% for full width */
+        display: flex; /* Enable flexbox for button arrangement */
+        justify-content: space-between; /* Distribute buttons horizontally */
+      }
+
+      /* Style the buttons (Top) */
+      nav.top button {
+        background-color: #333; /* Match navbar background */
+        color: #ddd; /* Light text color for buttons */
+        border: none; /* Remove default button border */
+        padding: 10px 20px; /* Add padding for buttons */
+        font-weight: bold; /* Make button text bolder */
+        cursor: pointer; /* Indicate hover interaction */
+      }
+
+      /* Style the buttons on hover (Top) */
+      nav.top:hover {
+        background-color: #4a4949; /* Darker background on hover */
+      }
+
+      /* Footer Navigation Bar Styles */
+      nav.footer {
+        background-color: #333; /* Darker background for the footer */
+        padding: 10px; /* Padding for footer content */
+        position: fixed; /* Fix the footer to the bottom */
+        bottom: 0; /* Position it at the bottom of the viewport */
+        width: 100%; /* Set width to 100% for full width */
+        text-align: center; /* Center the content horizontally */
+      }
+
+      /* Style the footer text */
+      nav.footer a {
+        color: #ddd; /* Light text color for footer text */
+        text-decoration: none; /* Remove underline from link */
+      }
+    </style>
+</head>
+<body>
+
+  <nav class="top">
+    <ul>
+      <li><a href="/home">Home</a></li>
+      <li><a href="/aboutme">About me</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    
+<div style="display: flex; align-items: center;">
+  <img src="/static/programmers.png" alt="programmers image" style="width: 800px; margin-right: 5px;">
+    <h1 style="text-align: right; margin-left: 20%;">Hello, my name is Joao Mauricio<br>I am a <span style="color: blue;">Backend Developer</span></h1>
+</div>
+<h1 style="margin-left: 27%; margin-top: 5%;">Feel free to navigate through the navigation bar</h1>
+
+  </div>
+
+  <nav class="footer">
+    <a href="https://flask.palletsprojects.com/en/3.0.x/">powered by Flask</a>
+  </nav>
+
+</body>
+</html>

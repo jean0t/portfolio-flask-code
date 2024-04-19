@@ -1,0 +1,9 @@
+{% extends "navigation_bar.html" %}
+
+{% block content %}
+<div style="display: flex; align-items: center;">
+  <img src="{{ url_for('static', filename='programmers.png') }}" alt="programmers image" style="width: 800px; margin-right: 5px;">
+    <h1 style="text-align: right; margin-left: 20%;">Hello, my name is Joao Mauricio<br>I am a <span style="color: blue;">Backend Developer</span></h1>
+</div>
+<h1 style="margin-left: 27%; margin-top: 5%;">Feel free to navigate through the navigation bar</h1>
+{% endblock %}
